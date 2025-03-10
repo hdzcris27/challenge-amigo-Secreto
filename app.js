@@ -24,7 +24,7 @@ const ulResultado = document.getElementById("resultado");
         inputAmigo.value = ""; //limpia el campo de texto
     }
 
-    agregarAmigo();
+    
 
     function sortearAmigo(){
     if(listaAmigos.length === 0){
