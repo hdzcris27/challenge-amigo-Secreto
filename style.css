@@ -115,13 +115,13 @@ button {
     cursor: pointer;
 }
 
-.button-add {
+.btnAgregarAmigo {
     background-color: var(--color-tertiary);
     color: var(--color-text);
     border-radius: 0 25px 25px 0;
 }
 
-.button-add:hover {
+.btnAgregarAmigo:hover {
     background-color: #a1a1a1;
 }
 
@@ -143,7 +143,7 @@ ul {
 }
 
 /* Botón de sortear título */
-.button-draw {
+.btnSortearAmigo {
     display: flex;
     align-items: center;
     width: 100%;
@@ -153,10 +153,10 @@ ul {
     font-size: 16px;
 }
 
-.button-draw img {
+.btnSortearAmigo img {
     margin-right: 40px;
 }
 
-.button-draw:hover {
+.btnSortearAmigo:hover {
     background-color: var(--color-button-hover);
 }
